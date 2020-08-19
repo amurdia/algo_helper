@@ -5,7 +5,7 @@ Author: Ankit Murdia
 Contributors:
 Version: 0.0.1
 Created: 2020-08-15 12:30:51
-Updated: 2020-08-19 10:07:05
+Updated: 2020-08-19 23:25:59
 Description:
 Notes:
 To do:
@@ -18,11 +18,13 @@ import argparse
 import cProfile, pstats, io
 import problems
 import importlib
+
+from helpers.log_helper import log as logging
 # =========================================================================== #
 
 
 # ================================ Constants ================================ #
-
+logger = logging.getLogger(__name__)
 # =========================================================================== #
 
 

@@ -1,0 +1,8 @@
+aiosqlite==0.15.0
+click==7.1.2
+joblib==0.16.0
+nltk==3.5
+regex==2020.7.14
+texttable==1.6.2
+tqdm==4.48.2
+typing-extensions==3.7.4.2

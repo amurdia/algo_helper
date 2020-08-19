@@ -3,7 +3,7 @@
 -- Contributors:
 -- Version: 0.0.1
 -- Created: 2020-08-18 23:59:36
--- Updated: 2020-08-19 11:30:06
+-- Updated: 2020-08-19 23:40:29
 -- Description:
 -- Notes:
 -- To do:
@@ -17,7 +17,7 @@ CREATE TABLE data_map (
 	source VARCHAR(30),
 	file VARCHAR(200),
 	space VARCHAR(10),
-	time VARCHAR(10),
+	`time` VARCHAR(10),
 	problem TEXT,
 	hash VARCHAR(35)
 );
